@@ -1,5 +1,5 @@
-X = int(input("Enter a number to see its multiplication table: "))
+number = int(input("Enter a number to see its multiplication table: "))
 
-for Y in range(1, 11):
-    Z = X * Y
-    print(f"{X} x {Y} = {Z}")
+for i in range(1, 11):
+    number * i = product
+    print(f"{number} * {i} = {product}")
