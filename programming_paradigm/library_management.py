@@ -27,7 +27,7 @@ class Library:
         """Adds a Book instance to the library."""
         self._books.append(book)
 
-    def check_out_book(self, title):
+    def check_out_book(self):
         """Finds a book by title and checks it out if available."""
         for book in self._books:
             if book.title == title and book.is_available():
@@ -35,7 +35,7 @@ class Library:
                 return True
         return False
 
-    def return_book(self, title):
+    def return_book(self):
         """Finds a book by title and returns it."""
         for book in self._books:
             if book.title == title:
