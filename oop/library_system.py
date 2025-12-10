@@ -24,6 +24,6 @@ class Library:
             self.books.append(book)
         else:
             print("Error")
-    def List_books(self):
+    def list_books(self):
         for book in self.books:
             print(book)
